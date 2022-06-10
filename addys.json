@@ -1,0 +1,48 @@
+{
+  "addresses": {
+    "getscheduler": 15388880,
+    "output": 2851152,
+    "getstate": 4502688,
+    "pushvfstring": 20961936,
+    "spawn": 4636400,
+    "deserialize": 20978464,
+    "pushcclosure": 21118176,
+    "pushcclosure_exit": 21118807,
+    "setglobal": 21126112,
+    "setglobal_exit": 21133472,
+    "setglobal_patch1": 21126200,
+    "setglobal_patch2": 21127104,
+    "pseudo2": 20962384,
+    "fake_ret": 458827,
+    "callcheck1": 59309612,
+    "callcheck2": 2875511,
+    "callcheck3": 21492736,
+    "xorconst": 57028400,
+    "nilobject": 35175336
+  },
+  "offsets": {
+    "scheduler": {
+      "start": 308,
+      "end": 312,
+      "fps": 280
+    },
+    "job": {
+      "name": 16
+    },
+    "waiting_scripts_job": {
+      "dm": 40,
+      "sc": 304
+    },
+    "identity": {
+      "extra_space": 72,
+      "identity": 24
+    },
+    "luastate": {
+      "top": 12,
+      "base": 28
+    },
+    "luafunc": {
+      "func": 16
+    }
+  }
+}
